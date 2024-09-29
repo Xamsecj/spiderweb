@@ -1,0 +1,65 @@
+/* Style for the video background */
+#background-video {
+   color : black
+}
+
+/* Container and other elements styling */
+
+body {
+    background-color: black;
+}
+.container {
+    position: relative;
+    z-index: 1; /* Ensure content is above the video */
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Animation for the HACKED BY text */
+@keyframes slideAndDisappear {
+    0% {
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    75% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+h2 {
+    color: white; /* Set the color of l
+}
+
+.audio-controls button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.audio-controls button:hover {
+    background-color: gray;
+}
